@@ -1,0 +1,257 @@
+create mode 100644 Shiva1
+[root@ip-172-31-47-211 nginx]# git push origin master
+Username for 'https://github.com': y9603036906$
+Password for 'https://y9603036906$@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Shivagithub01/nginx.git/'
+[root@ip-172-31-47-211 nginx]# git push origin master
+Username for 'https://github.com': Shivagithub01
+Password for 'https://Shivagithub01@github.com':
+Counting objects: 4, done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 324 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Shivagithub01/nginx.git
+   7ce6b70..776875b  master -> master
+[root@ip-172-31-47-211 nginx]# history
+    1  whoami
+    2  ls -i
+    3  cd /home
+    4  pwd
+    5  /home/ec2-user
+    6  cd/
+    7  cd/bin
+    8  ls
+    9  ls -i
+   10  wc -l
+   11  ls
+   12  yum install epel
+   13  yum install epel-release
+   14  ls
+   15  ls -lrt
+   16   curl http://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm -O
+   17  ls -lrt
+   18  chmod 777 epel-release-7-11.noarch.rpm
+   19  rpm -ivh epel-release-7-11.noarch.rpm
+   20  ls
+   21  ls -lrt
+   22   rm -f *.rpm
+   23  ls -lrt
+   24   vi epel.repo
+   25  yum update
+   26  ls
+   27  ls -lrt
+   28  exit
+   29  whoami
+   30  curl http://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm -O
+   31  ls
+   32  ls -ltr
+   33  rpm -ivh epel-release-7-11.noarch.rpm
+   34  ls
+   35  chmod 777 epel-release-7-11.noarch.rpm
+   36  ls
+   37  yum update
+   38  yum install ansible -y
+   39  ansible version
+   40  historyt
+   41  history
+   42  ansible -version
+   43  ansible --version
+   44  exit
+   45  where ansible
+   46  ls
+   47  ll
+   48  ls -lart
+   49  which ansible
+   50  what ansible
+   51  where ansible
+   52  rmd ansible
+   53  man rm
+   54  rm ansible
+   55  cd ansible
+   56  cd /bin
+   57  ls
+   58  rm ansible
+   59  cd
+   60  which ansible
+   61  ls -lrt
+   62  ls -lart
+   63  uninstall ansible
+   64  rm -f ansible
+   65  ls -lart
+   66  ansible --version
+   67  whoami
+   68  yum install ansible -y
+   69  ansible --version
+   70   yum update
+   71  ansible --version
+   72  ansible -version
+   73  ansible --version
+   74  rm -f *.ansible
+   75  ls -lart
+   76  ll
+   77  rm -f *.rpm
+   78  ls
+   79  yum uninstall ansible
+   80  cd /bin
+   81  yum uninstall ansible
+   82  yum uninstall .ansible
+   83  cd /yum
+   84  cd yum
+   85  cd
+   86  rm -r /bin/ansible
+   87  ls -lart
+   88  cd /bin/ansible
+   89  cd /bin
+   90  ll
+   91  cd /etc/ansible
+   92  ls
+   93  ansible --version
+   94  cd
+   95  ansible --version
+   96  ansible -- version
+   97  ansible --version
+   98  yum remove ansible
+   99  cd /etc
+  100  ll
+  101  cd
+  102  whoami
+  103  rm -f *.rpm
+  104  ls
+  105  clear
+  106  whoami
+  107  curl http://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm -O
+  108  ls
+  109  ls -ltr
+  110  rpm -ivh epel-release-7-11.noarch.rpm
+  111  ls -ltr
+  112  vi epel.repo
+  113  ---------------------------------------
+  114
+  115  yum install ansible -y
+  116  ansible --version
+  117  cd /etc/ansible
+  118  ls
+  119  yum update
+  120  history
+  121  ls -lart
+  122  ll
+  123  yum update
+  124  yum install httpd -y
+  125  ls -lart
+  126  ls
+  127  pwd
+  128  netstat -anlp | grep":80"
+  129  netstat -anlp | grep ":80"
+  130  systemctl restart httpd
+  131  netstat -anlp | grep ":80"
+  132  which httpd
+  133  cd /sbin/httpd
+  134  cd /sbin
+  135  ll
+  136  cd
+  137  mkdir -p /root/apachesite
+  138  cd /root/apachesite
+  139  wget https://github.com/BlackrockDigital/startbootstrap-coming-soon/archive/gh-pages.zip
+  140   https://github.com/BlackrockDigital/startbootstrap-coming-soon/archive/gh-pages.zip
+  141  cd
+  142  wget https://github.com/BlackrockDigital/startbootstrap-coming-soon/archive/gh-pages.zip
+  143  ipconfig
+  144  ifconfig
+  145  systemctl restart httpd.service
+  146  ipconfig
+  147  ifconfig
+  148  service httpd status
+  149*
+  150  whoami
+  151  systemctl status httpd
+  152  systemctl stop httpd
+  153  ls -lrt
+  154  systemctl status httpd
+  155* curl http://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm -O
+  156*
+  157  yum install nginx
+  158  systemctl enable nginx
+  159  systemctl start nginx
+  160  systemctl status nginx
+  161  whoami
+  162*
+  163  cd /
+  164  cd /etc/hostname
+  165  which ansible
+  166  cd /etc
+  167  ll
+  168  ls
+  169  cd /ansible
+  170  ps -ef | grep -i ansible
+  171  ls -lart
+  172  cd /ansible
+  173  cd ansible/
+  174  ll
+  175  ls
+  176  vi /etc/hostname
+  177  cd /etc/hosts
+  178  ll
+  179  vi ansible.cfg
+  180  cd
+  181  which git
+  182  yum update
+  183  yum install git
+  184  which git
+  185  cd /bin/git
+  186  ll
+  187  ls
+  188  ls -lart
+  189  cd /bin
+  190  cd /git
+  191  ls
+  192  cd
+  193  ps -ef | grep git
+  194  cd /bin/git/
+  195  git status
+  196  git init nginx
+  197  ls -lrt
+  198  cd nginx/
+  199  ll
+  200  pwd
+  201  gitconfig --global user.email shivaaws01@gmail.com
+  202  gitconfig --global user.email Shivaaws01@gmail.com
+  203  ls
+  204  ls -lart
+  205  git config --global user.email Shivaaws01@gmail.com
+  206  git config --global user.name Shivagithub01
+  207  vi Shiva
+  208  git status
+  209  git add shiva
+  210  git add Shiva
+  211  git status
+  212  git commit -m "commit one"
+  213  git push origin master
+  214  git status
+  215  git clone .
+  216  git clone https://github.com/Shivagithub01/nginx/blob/master/README.md
+  217  git commit -m "commit one"
+  218  git push origin master
+  219  vi Shiva
+  220  git add Shiva
+  221  git status
+  222  git commit -m "commit two"
+  223  git push origin master
+  224  git add .
+  225  git push origin master
+  226  git pull
+  227  git clone https://github.com/Shivagithub01/nginx/tree/master
+  228  ls
+  229  ll
+  230  git clone https://github.com/Shivagithub01/nginx.git
+  231  ls
+  232  git push origin master
+  233  cd nginx
+  234  ls
+  235  git push origin master
+  236  ls
+  237  vi Shiva1
+  238  git add .
+  239  git commit -m "msg1"
+  240  git push origin master
+  241  history
